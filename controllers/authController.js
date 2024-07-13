@@ -17,7 +17,6 @@ if(err.code === 11000){
       errors[properties.path] = properties.message;
     });
   }
-
   return errors;
 };
 
